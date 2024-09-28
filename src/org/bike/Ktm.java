@@ -22,6 +22,12 @@ public class Ktm implements Bike {
 		System.out.println("350cc");
 		
 	}
+	
+	public void newlaunch() {
+		System.out.println("Duke 390cc");
+
+	}
+	
 	public static void main(String[] args) {
 		Ktm k=new Ktm();
 		k.cost1();
@@ -30,5 +36,7 @@ public class Ktm implements Bike {
 		Bike b=new Ktm();
 		b.cost();
 		b.speed();
+		
+		k.newlaunch();
 	}
 }
